@@ -76,10 +76,10 @@ until valor == 0
     valor -= 1
 end
 
-lista = 0..5
+lista = 10..15
 
 lista.each do |meu_valor| # args do bloco
-    puts %Q(Meu valor \(usndo each\) é #{meu_valor})
+    puts %Q(Meu valor \(usando each\) é #{meu_valor})
 end
 
 hash = {nome: "cadu", idade: 39}

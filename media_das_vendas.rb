@@ -12,6 +12,6 @@ for item in 0..3
     total += meses[item]
 end
 
-media = total / meses.count
+media = total / 4
 
 puts "Total: #{total} - Média: #{media}"

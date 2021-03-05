@@ -21,9 +21,9 @@ MENS
 
 puts mensage
 
-mensage = %q(bem vindo, #{nome}, ao meu programa não faz interpolação com o q minusculo)
+mensage = %q(bem vindo,\n #{nome}, ao meu programa não faz interpolação com o q minusculo)
 puts mensage
-mensage = %Q(bem vindo, #{nome}, ao meu programa não faz interpolação com o q minusculo)
+mensage = %Q(bem vindo,\n #{nome}, ao meu programa não faz interpolação com o q minusculo)
 puts mensage
 #puts mensage.public_methods
 puts "O tamanho da minha string é #{mensage.length}"
